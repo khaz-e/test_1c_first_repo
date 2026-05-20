@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5770300-5220-4eb6-b3d5-5467b2274e83">
+  <name>ОбменДаннымиWMS4_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными WMS4 документы</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ВнутреннееПотребление</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ПередачаТоваровХранителю</types>
+    <types>DocumentObject.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentObject.ПоступлениеТоваровОтХранителя</types>
+    <types>DocumentObject.КорректировкаРеализации</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.СписаниеНедостачТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиWMS4.ОбменДаннымиWMS4_ДокументыПередЗаписью</handler>
+</mdclass:EventSubscription>

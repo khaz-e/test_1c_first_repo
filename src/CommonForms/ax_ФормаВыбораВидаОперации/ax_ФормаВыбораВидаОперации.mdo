@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474d8e3a-b1fc-4d2c-99a3-6067671d6c60">
+  <name>ax_ФормаВыбораВидаОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>форма выбора вида операции</value>
+  </synonym>
+  <comment>для перемещений</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

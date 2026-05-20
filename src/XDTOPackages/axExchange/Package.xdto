@@ -1,0 +1,85 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.axelot.ru/tms2_exchange/package">
+	<objectType name="axDocument">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="DocumentType" type="xs:string" lowerBound="0" default="Null" form="Attribute"/>
+		<property name="Date" type="xs:dateTime" form="Attribute"/>
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="Description" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.axelot.ru/tms2_exchange/package" name="GoodsLine" type="d3p1:axGoodsLine" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://www.axelot.ru/tms2_exchange/package" name="SerialNumbers" type="d3p1:axSerialNumbers" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://www.axelot.ru/tms2_exchange/package" name="BarcodeLine" type="d3p1:axBarcodeLine" lowerBound="0" upperBound="-1" nillable="true" form="Element"/>
+		<property name="Status" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="DateUnload" type="xs:dateTime" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="axGoodsLine">
+		<property name="OwnerID" type="xs:string" form="Attribute"/>
+		<property name="NomenclatureID" type="xs:string" form="Attribute"/>
+		<property name="StorangeUnitID" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="NomenclatureSeriesID" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="QuantityFact" type="xs:decimal" nillable="true" form="Attribute"/>
+		<property name="LineNum" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="Defect" type="xs:boolean" lowerBound="0" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://www.axelot.ru/tms2_exchange/package" name="SerialNumbers" type="d3p1:axSerialNumbers" lowerBound="0" upperBound="-1" nillable="true" form="Element"/>
+	</objectType>
+	<objectType name="axInventory">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="Date" type="xs:dateTime" form="Attribute"/>
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="OrganizationID" type="xs:string" form="Attribute"/>
+		<property name="StorageID" type="xs:string" form="Attribute"/>
+		<property name="Description" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.axelot.ru/tms2_exchange/package" name="GoodsLine" type="d3p1:axInventoryGoodsLine" lowerBound="0" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="axInventoryGoodsLine">
+		<property name="NomenclatureID" type="xs:string" form="Attribute"/>
+		<property name="StorangeUnitID" type="xs:string" form="Attribute"/>
+		<property name="NomenclatureSeriesID" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="QuantityFact" type="xs:decimal" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="axNomenclature">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="Code" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="Articul" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="Description" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="ClassifierUnitsMesurementID" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property name="TypeNomenclatureID" type="xs:string" lowerBound="0" nillable="true" default="00000000-0000-0000-0000-000000000000" form="Attribute"/>
+		<property name="weight" type="xs:decimal" form="Attribute"/>
+		<property name="volume" type="xs:decimal" form="Attribute"/>
+		<property name="height_width_width" type="xs:string" nillable="true" default="0.00x0.00x0.00" form="Attribute"/>
+	</objectType>
+	<objectType name="axSerialNumbers">
+		<property name="SerialNumber" type="xs:string" form="Attribute"/>
+		<property name="ManufacturerBarcode" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="axSeries">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="OwnerID" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="ExpirationDate" type="xs:dateTime" form="Attribute"/>
+		<property name="Number" type="xs:string" form="Attribute"/>
+		<property name="ConsignmentDate" type="xs:date" nillable="true" form="Attribute"/>
+		<property name="ProductionDate" type="xs:date" nillable="true" form="Attribute"/>
+		<property name="ConsignmentState" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="axStorangeUnit">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="ClassifierID" type="xs:string" form="Attribute"/>
+		<property name="OwnerID" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="Code" type="xs:string" form="Attribute"/>
+		<property name="weight" type="xs:decimal" form="Attribute"/>
+		<property name="volume" type="xs:decimal" form="Attribute"/>
+		<property name="height" type="xs:decimal" form="Attribute"/>
+		<property name="depth" type="xs:decimal" form="Attribute"/>
+		<property name="width" type="xs:decimal" form="Attribute"/>
+		<property name="coefficient" type="xs:decimal" form="Attribute"/>
+		<property name="main" type="xs:boolean" form="Attribute"/>
+		<property name="BarCode" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="axBarcodeLine">
+		<property name="BarcodeProduct" type="xs:string" form="Attribute"/>
+		<property name="BarcodeTransportBox" type="xs:string" form="Attribute"/>
+		<property name="BarcodeContainer" type="xs:string" form="Attribute"/>
+	</objectType>
+</package>

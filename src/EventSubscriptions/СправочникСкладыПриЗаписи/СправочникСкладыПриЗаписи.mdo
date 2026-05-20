@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9befc615-dce3-468b-a6d2-cfae05ac0dec">
+  <name>СправочникСкладыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Склады</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменДаннымиWMS4.СправочникСкладыПриЗаписи</handler>
+</mdclass:EventSubscription>

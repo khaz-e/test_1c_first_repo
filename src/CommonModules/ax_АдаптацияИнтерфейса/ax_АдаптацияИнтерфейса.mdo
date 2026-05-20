@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e93fa5e4-3ac1-49c7-89be-76e73a05edd2">
+  <name>ax_АдаптацияИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адаптация типовых интерфейсов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

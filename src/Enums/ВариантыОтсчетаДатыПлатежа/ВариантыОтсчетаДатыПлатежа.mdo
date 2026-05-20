@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5fdaf16b-2166-49ce-983f-eab328b1a378" extendedConfigurationObject="5abb70ea-0663-4378-919d-0ea83e97d3dc">
+  <producedTypes>
+    <refType typeId="c7d2dd1e-dc40-49f4-b93c-ad35924655cc" valueTypeId="9d389145-d11f-4173-810a-643ae7b1bafd"/>
+    <listType typeId="1c83d74b-be76-4d9a-89db-102a68028336" valueTypeId="d7b75d78-e3d2-4312-97a5-347529f37082"/>
+    <managerType typeId="09bb6a47-ee7b-4322-ad54-57996c309433" valueTypeId="fa7139ab-1857-48c2-9525-d66a3afecb97"/>
+  </producedTypes>
+  <name>ВариантыОтсчетаДатыПлатежа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

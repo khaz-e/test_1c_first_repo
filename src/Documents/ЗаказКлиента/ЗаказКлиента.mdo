@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d54ee61c-40d0-41ac-8a5e-68b4e9f4ac34" extendedConfigurationObject="1ceef4a2-6b58-45a0-8a75-bb6e3004590f">
+  <producedTypes>
+    <objectType typeId="adacf26d-1163-4d6a-84cb-b929f3cffd50" valueTypeId="5232bd5f-5bd4-4c46-8f0a-ceb795377d3e"/>
+    <refType typeId="4ccfbbc0-a342-49cf-ba07-02e436e7ace9" valueTypeId="8564b9ee-30bb-44af-b2d9-1635ec7cb5d0"/>
+    <selectionType typeId="3130ff67-f5e4-4d10-b53a-946e4b7fd88a" valueTypeId="b810b104-ddf1-4066-9603-253c2905b644"/>
+    <listType typeId="8411ef8a-f664-464f-a333-650540d2281c" valueTypeId="5ff2ed88-b639-48f3-a4bd-a7309c1ae3c4"/>
+    <managerType typeId="8d7bf66d-4175-4210-a95b-46ed0defaedb" valueTypeId="e1120ab9-cce8-4037-acb4-311c1421d86a"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="dcd047ea-5e74-4c80-b83a-7da6104f5349" extendedConfigurationObject="be5457cf-0707-477b-bd1d-257c85cd70d5">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="527d0ca9-297e-47dc-b1b6-2450e3dcc895" extendedConfigurationObject="7b526229-3286-418a-920a-ff15a9b3ec48">
+    <producedTypes>
+      <objectType typeId="2d3c3896-6494-496a-8a33-c153adc3bd8c" valueTypeId="b216800d-fcc6-4421-9be5-e4840d14642e"/>
+      <rowType typeId="20e04681-52f7-4d9d-bec8-ae1b79418b0e" valueTypeId="204a5aae-2875-4c31-82b8-687d771f0493"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="4f7fd2a3-1247-4f6c-be8c-cf6544cbc68b">
+      <name>ax_Примерка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примерка</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

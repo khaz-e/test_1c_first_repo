@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80dcf0fa-a3c9-476a-9574-c16332952c3a">
+  <name>ax_ДинамическоеФормированиеИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ax динамическое формирование интерфейса</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

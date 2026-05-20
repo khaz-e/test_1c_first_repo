@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96261de8-751e-48e5-82ce-e7e7199b7725">
+  <name>ТДФ_WMS_ПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТДФ WMS при копировании</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.КорректировкаРеализации</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.СписаниеНедостачТоваров</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.ОбменДаннымиWMS4.ТДФ_WMS_ПриКопированииПриКопировании</handler>
+</mdclass:EventSubscription>

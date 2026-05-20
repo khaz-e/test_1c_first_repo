@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="869fdcff-3785-41ec-977c-c5f64398fd73" extendedConfigurationObject="86194457-bf80-4b3a-9163-f2eb62ecf7ba">
+  <producedTypes>
+    <refType typeId="42b57e20-da63-4820-9541-b2797ff73bfe" valueTypeId="d36c3d3e-3927-4850-81b7-a693c720d1d8"/>
+    <listType typeId="d5277862-7e26-445f-8b28-3a571c05f79a" valueTypeId="9d5a783b-14c8-4e4f-8c5e-d0a84e427db4"/>
+    <managerType typeId="0084ad0e-72a5-4bec-9187-dec2b63990cb" valueTypeId="ffc1acc2-7757-46c1-9b70-3a8584f70d4d"/>
+  </producedTypes>
+  <name>СостоянияЗаполненияМногооборотнойТары</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

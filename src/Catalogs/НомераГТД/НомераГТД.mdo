@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a213b734-caab-4f5d-995c-cc35f8f3b940" extendedConfigurationObject="72ca17a9-10df-4067-a958-2977ca513486">
+  <producedTypes>
+    <objectType typeId="21d789a5-c206-4263-a5f4-d781aa13f332" valueTypeId="ad997825-e03a-48b4-ba43-d7dfc8e012ec"/>
+    <refType typeId="a4485bbc-8cef-46c2-a041-83e9d4e74008" valueTypeId="fe158c4c-b21f-4f6e-a65f-b91db34d6da4"/>
+    <selectionType typeId="519b95ac-aaa4-456a-9f23-b2be9cfcfccd" valueTypeId="7bc376af-9990-4d79-bf6f-e29aff539731"/>
+    <listType typeId="bd7b575a-3dd1-43c1-a25a-220dbb6d27ab" valueTypeId="3591888d-8209-4862-a6e9-d621cf94d560"/>
+    <managerType typeId="37df0968-a159-4945-8b25-fb62b0115e39" valueTypeId="79e8a010-d83f-4b4b-b060-0e867a05dda9"/>
+  </producedTypes>
+  <name>НомераГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

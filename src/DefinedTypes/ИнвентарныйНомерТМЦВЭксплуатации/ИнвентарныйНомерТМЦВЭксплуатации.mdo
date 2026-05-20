@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d2f0405-de53-41a1-a0b7-f22baea8166c" extendedConfigurationObject="332e9f31-5f66-41a7-a255-77c46e333455">
+  <producedTypes>
+    <containerType typeId="092df460-ac22-4127-a736-97f1187568b0" valueTypeId="bd35ace8-a7ab-4d50-a7ac-69279d931666"/>
+  </producedTypes>
+  <name>ИнвентарныйНомерТМЦВЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

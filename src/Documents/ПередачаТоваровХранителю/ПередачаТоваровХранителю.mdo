@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="898504d5-261c-44b1-a269-3b89224efd55" extendedConfigurationObject="c7c0ead6-40db-47cd-85f3-e065d7c82f48">
+  <producedTypes>
+    <objectType typeId="2e1b574c-8f7b-4c3f-9d7d-d9bdd5c4a99d" valueTypeId="ac744dcd-25a5-4902-b30f-a7d2d41ff583"/>
+    <refType typeId="76c89226-4999-4904-a98d-0863c415c67c" valueTypeId="cd289373-6f55-4990-8ccb-5a46fb16b753"/>
+    <selectionType typeId="1f2a3d32-b4b5-4abd-8e32-92aa5a9b3ce3" valueTypeId="d92a687f-90e6-4502-9f11-71667fb50339"/>
+    <listType typeId="9d39c22a-2711-4b90-9147-05daaacab214" valueTypeId="00d63e6d-d9b8-425b-9b74-cae188616936"/>
+    <managerType typeId="c6f4bdcf-f36b-405d-82db-046ca6271e1f" valueTypeId="ccd5c9e8-5ded-4cf2-b23c-8103e4858d0a"/>
+  </producedTypes>
+  <name>ПередачаТоваровХранителю</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="9390ea06-ef18-4da0-96a6-c7b9195fcde5">
+    <name>ax_УС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить в УС</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5d7a91a-2321-4fd1-9206-84035e9734ee">
+    <name>ax_МаксимальныйКодСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>максимальный код строки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный реквизит для хранения максимального кода строки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="09e0eb10-16cb-4332-85f8-8b5105a467c9" extendedConfigurationObject="3c450be0-be1f-488a-aa7b-c03e505c202b">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="7b3c9f81-5ece-4232-bdf0-7c1d5c34791b" extendedConfigurationObject="cf556c65-fe1f-4ae9-a843-17287f8a810d">
+    <producedTypes>
+      <objectType typeId="40c24ffd-386b-4622-8d00-5bccbcdfb793" valueTypeId="752b78f4-9e2a-4e84-986e-33edc1688107"/>
+      <rowType typeId="f866fc70-e185-46e9-b87d-9ee5b57e34a4" valueTypeId="b23ae8b2-014f-4396-b1dc-e8d3ec683ead"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="4f049970-5e33-4193-9fb1-7518accb4a0d">
+      <name>ax_КодСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код строки</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный реквизит табличной части, который используется только для обмена с базой WMS</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="859ad6fb-6877-461d-87d1-be8c1c2307d9" extendedConfigurationObject="013a3f17-28a5-4e48-9725-1d78b0a8218f">
+  <producedTypes>
+    <refType typeId="5b9ea67f-b98d-4614-a58d-95cb58a4f693" valueTypeId="821be661-e52d-4682-b528-cf5198612882"/>
+    <listType typeId="9eb36ed6-ba8a-4480-8afc-8947f1db1506" valueTypeId="fe2b8533-9213-4520-8790-4755f056aec8"/>
+    <managerType typeId="31319d74-3f8d-410f-9f48-81b8fcb50116" valueTypeId="65170862-f440-44bc-8060-b70e52a1071f"/>
+  </producedTypes>
+  <name>ТипыКорректировки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="a45d3c4f-9248-4de6-9b39-de69b9f7c6ee" extendedConfigurationObject="4243192e-09f7-4ec4-b875-f8a24e2966fe">
+    <name>КорректировкаДоВводаОстатковУслугИПрочихАктивов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="bb2b4996-6c5a-4975-9b9c-3877c6032725" extendedConfigurationObject="15ab1859-665b-4973-a9c5-f04ee7d3e2c0">
+    <name>КорректировкаДоВводаОстатковТоваровИУслуг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

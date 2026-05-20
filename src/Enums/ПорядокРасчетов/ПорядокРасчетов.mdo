@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="42688779-af09-4491-b791-7ceb242d5fa8" extendedConfigurationObject="9b333cc3-56b6-4b71-8111-6ac5626fa947">
+  <producedTypes>
+    <refType typeId="756c07e1-59fb-45a8-97fe-2a5e1edda0e7" valueTypeId="68f350c6-7929-4e7a-9f4c-f00f378f044b"/>
+    <listType typeId="cc54cafb-c8e8-4aa1-b7ea-6777baea03f8" valueTypeId="e57553bb-ffb2-4165-a20d-df15d47f360a"/>
+    <managerType typeId="811d1e04-b29b-4d98-9516-cd50cf374712" valueTypeId="ca1d005d-6737-4502-a354-6d27babbc5d2"/>
+  </producedTypes>
+  <name>ПорядокРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>
