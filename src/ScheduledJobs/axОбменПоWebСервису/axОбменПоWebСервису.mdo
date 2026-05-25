@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2714e140-d65b-492a-a7a3-edb6352ec439">
+  <name>axОбменПоWebСервису</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТД Форт, обмен УТ WMS, web сервис</value>
+  </synonym>
+  <methodName>CommonModule.ОбменДаннымиWMS4.axОбменПоWebСервису</methodName>
+  <description>Обмен по web сервису</description>
+  <key>axОбменПоWebСервису</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d954e605-bfcf-49c9-a421-194f92f1edb2" extendedConfigurationObject="9442c42a-1265-415a-8691-6835a1a67c8b">
+  <producedTypes>
+    <objectType typeId="7cc2cb28-39f9-4591-8939-956ec1c3e154" valueTypeId="597a47ba-218a-4009-91d9-08f9d39032a8"/>
+    <managerType typeId="759c8a5e-7f51-4387-abe2-1a59817b1226" valueTypeId="af330980-9c8e-4603-a1d2-710493c8e8cd"/>
+  </producedTypes>
+  <name>ЖурналДокументовПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="936104bf-5f10-44ed-8a54-cd4c563f9c3e" extendedConfigurationObject="629b50fd-4276-497f-a0f9-ec520ad1c7d1">
+    <name>СписокДокументов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

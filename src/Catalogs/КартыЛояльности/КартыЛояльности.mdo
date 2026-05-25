@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f1c0190-1bc6-4330-8edc-e6bef2f85a28" extendedConfigurationObject="41416354-758a-49f8-9426-aaec266ec3b9">
+  <producedTypes>
+    <objectType typeId="38c51aa4-614f-42e0-9d80-b838640c3386" valueTypeId="2aec4275-1a81-456b-8dc1-a616695bc2f2"/>
+    <refType typeId="ce6135a6-09d7-4f12-b0b4-77ad08dc01ee" valueTypeId="501547d9-80bc-46d5-803b-61eea5647eb9"/>
+    <selectionType typeId="1df48bbb-7909-49ba-868e-252491cb3dba" valueTypeId="14ab7bce-5b6d-4e72-8309-02247180807f"/>
+    <listType typeId="4447d54a-0f7f-4f57-a59d-77ae7d23e2ad" valueTypeId="719857ca-23eb-442c-8900-45f939ffdb2a"/>
+    <managerType typeId="9a54d8ee-3439-4f87-a440-c57f28227ef7" valueTypeId="e1be4838-0bbe-461f-bf75-06f4e779073d"/>
+  </producedTypes>
+  <name>КартыЛояльности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

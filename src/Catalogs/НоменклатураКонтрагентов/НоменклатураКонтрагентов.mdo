@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c6258b5f-9f2e-4978-80c7-744657ec184f" extendedConfigurationObject="fb652c53-8b80-4555-a9eb-dba4d24c612d">
+  <producedTypes>
+    <objectType typeId="b5f1df8a-4eb9-488a-8383-5f3d9d5ca7a4" valueTypeId="ee9e4faa-992d-48d0-b980-479e8af16076"/>
+    <refType typeId="1c60ecab-91e8-445b-9d4d-2a34705cd23d" valueTypeId="d10e4d2f-2385-4d2e-a6d6-6c99f02ca95b"/>
+    <selectionType typeId="e1342ea7-699b-4208-8dee-f7fb494bd9cf" valueTypeId="9cc079eb-99ee-4b1f-a064-0bcba0ac515c"/>
+    <listType typeId="9ef6ca26-582e-4153-b645-747f2efca654" valueTypeId="07f0a59d-3991-4ec4-98da-1c9a5ff789f7"/>
+    <managerType typeId="f0ac8ef1-f1cb-4814-a86f-a0c10c4df794" valueTypeId="b17a4d7c-a27b-4aa2-b5d7-75370374b21f"/>
+  </producedTypes>
+  <name>НоменклатураКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>11</codeLength>
+  <codeType>String</codeType>
+  <attributes uuid="22b7373d-9b5a-4f41-811c-0f7d7b29230e" extendedConfigurationObject="a2c26441-ecdb-4656-bfd2-15f5621bd867">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="24018684-6ada-48c8-9bf4-8a4ab2c96864" extendedConfigurationObject="35dcedc2-6c02-4494-a957-999efc7f1ae7">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.НоменклатураБЭД</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f75d7cf1-3c09-467f-91e2-6abbaa7c5325" extendedConfigurationObject="2a5af94d-ca5b-4cb0-be5e-029447ca2a71">
+    <name>Штрихкод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

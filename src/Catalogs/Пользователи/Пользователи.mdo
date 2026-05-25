@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5f8662f6-8a93-4482-b8f5-f1268cb1c135" extendedConfigurationObject="cffbf533-11c6-4206-9b8b-f7355cb63fd8">
+  <producedTypes>
+    <objectType typeId="5be8d202-ca4b-4d39-adae-e85c910b8958" valueTypeId="c3efb6c0-9cf0-4846-98dd-1d48333cc577"/>
+    <refType typeId="7f9355af-ad73-4216-8e12-22068078f708" valueTypeId="7709673c-de8b-4dfd-be41-d8c26468208f"/>
+    <selectionType typeId="56514185-f687-4a9c-9fd3-93a8d81490db" valueTypeId="e15654d6-81b5-441b-ac6a-f204070ef37d"/>
+    <listType typeId="19936b5c-01c2-48fb-aab5-ba811b8c3ef4" valueTypeId="4644e949-03de-4a2c-8598-3ec0fb8fa311"/>
+    <managerType typeId="0b374d94-2ce5-4652-bf08-5a05679a0f55" valueTypeId="611a3101-f0e9-4793-8906-6270c4620ca3"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+    <defaultChoiceForm>Extended</defaultChoiceForm>
+  </extension>
+  <descriptionLength>100</descriptionLength>
+  <tabularSections uuid="578d7b75-05a9-437b-aa72-74cc92d6c1e9" extendedConfigurationObject="245f870e-a53a-4d86-aa0a-c0c7709b8acb">
+    <producedTypes>
+      <objectType typeId="e5f7b412-60f2-4e1e-8cfb-90dd5b443c95" valueTypeId="9de83322-fe3b-42d6-b616-c19a022293b2"/>
+      <rowType typeId="8e5ebb1d-faf7-495a-815a-a4f48eb806c5" valueTypeId="030a8777-9604-4273-98bd-b8bd91ae9111"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="9582708d-ba31-4c0d-b36b-17f4a5f3defb" extendedConfigurationObject="476f6bfa-b10c-4e0f-8499-23c652715b3f">
+      <name>Свойство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="61375a96-1153-4efc-8abb-31786c63cac7" extendedConfigurationObject="eca2b076-d218-4d1c-948b-7894edf9fa49">
+      <name>ТекстоваяСтрока</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers/>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="0b12fd42-eefe-40e1-9b52-4093a01e1519" extendedConfigurationObject="65c9754b-53f6-4616-a9d4-74826f7b0ced">
+      <name>Значение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="13293c9b-7211-4249-b57c-58863b4419fe">
+    <name>ax_СписокБригадиров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список бригадиров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c2b164-f6e7-43e9-971d-b7465600afc3">
+  <name>ТДФ_WMS_ПередЗаписьюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТДФ WMS перед записью документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.КорректировкаРеализации</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.СписаниеНедостачТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиWMS4.ТДФ_WMS_ПередЗаписьюДокументаПередЗаписью</handler>
+</mdclass:EventSubscription>

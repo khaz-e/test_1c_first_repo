@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23cff00c-fcbe-417d-95aa-35bd9c102bb0">
+  <producedTypes>
+    <refType typeId="9114e734-a988-4155-9812-a19c8d683286" valueTypeId="01a3c4c4-767e-4979-8ffe-53abec38648a"/>
+    <listType typeId="e966fbd4-ac5c-42dc-ba1e-70b25bb53d25" valueTypeId="3508d711-8a4d-49c1-a00b-ce47b42bab02"/>
+    <managerType typeId="bb6bc82d-686c-4ae8-83f8-257095fed3c1" valueTypeId="b85125f7-2485-45e8-a994-28d4d7210c5e"/>
+  </producedTypes>
+  <name>ТДФ_ВидОперацииСкладскойОрдерWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции складского ордера (WMS)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a38ac364-8699-4eed-8fe3-7aa64b67ff8f">
+    <name>ПриходныйОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9ed9e96-1d54-4da8-a9a0-3e2086b11fbe">
+    <name>РасходныйОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5951dbe2-3932-461e-9716-e710b5fa01af">
+  <name>axExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange</value>
+  </synonym>
+  <namespace>http://www.axelot.ru/tms2_exchange/package</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.axExchange</value>
+  </xdtoPackages>
+  <descriptorFileName>axExchange.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="9125ce1a-df9d-4a9d-b0c4-5c7a9505cc51">
+    <name>SetArrivalFact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set arrival fact</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetArrivalFact</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1c05a5ec-a29e-4f3a-9125-ac0b3df88d30">
+      <name>Object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>axDocument</name>
+        <nsUri>http://www.axelot.ru/tms2_exchange/package</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="47bcb966-d634-4854-b99d-d7430e81f355">
+      <name>NodeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="851a253c-ca49-4a42-a3b8-d07e9b60086c">
+    <name>SetShipmentFact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set shipment fact</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetShipmentFact</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c81f328f-482a-411c-81c1-b4992cedcf0a">
+      <name>Object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>axDocument</name>
+        <nsUri>http://www.axelot.ru/tms2_exchange/package</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a2a3f51b-5583-41d7-9ec3-9f7d83df7c1d">
+      <name>NodeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="0384bb61-f888-4943-84cb-96820315a89e">
+    <name>SetInventory</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set inventory</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetInventory</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ba447c27-5ff7-4c50-8568-d4f326113218">
+      <name>Object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>axInventory</name>
+        <nsUri>http://www.axelot.ru/tms2_exchange/package</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="19c9e4e0-ddcd-4710-bee8-24ded7412418">
+      <name>NodeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c1c67d40-494d-4218-b4a8-0cd3b6a1111d">
+    <name>SetDocumentStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set document status</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetDocumentStatus</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="937f525d-b580-4393-9db1-8929eccab67a">
+      <name>Object</name>
+      <synonym>
+        <key>ru</key>
+        <value>Object</value>
+      </synonym>
+      <xdtoValueType>
+        <name>axDocument</name>
+        <nsUri>http://www.axelot.ru/tms2_exchange/package</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="febdd758-e849-44f0-b082-5757ce257e07">
+      <name>NodeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e51059e7-1397-4c68-bd60-cd7e3ff38bdd">
+      <name>Status</name>
+      <synonym>
+        <key>ru</key>
+        <value>Status</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4717f449-5586-40b7-bfa9-8f254d2b46a9">
+    <name>GetRemains</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get remains</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetRemains</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="aa73c05e-2d38-4b24-8bfd-dd6d279c66d4">
+      <name>NodeID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Node ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="fee0e222-2687-4aec-ac9a-1c56d0e56b15">
+    <name>tdfort</name>
+    <synonym>
+      <key>ru</key>
+      <value>Tdfort</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>tdfort</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="f6dc6140-4c32-4988-bd99-31731d108c1c">
+      <name>param</name>
+      <synonym>
+        <key>ru</key>
+        <value>param</value>
+      </synonym>
+      <xdtoValueType>
+        <name>all</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="42b21867-893d-43e0-950f-b18f6d4b7626">
+    <name>tdfort_createFL</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createFL</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createFL</procedureName>
+    <parameters uuid="5f76588b-57e2-40e1-a886-32f8bfa44744">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="507032e7-4cf7-4a80-a64a-6e378b15a5e2">
+    <name>tdfort_createCompany</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createCompany</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createCompany</procedureName>
+    <parameters uuid="a36c91c0-21db-434f-9bc9-87c25bba12ae">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="dc9badcf-a919-4320-98bc-6e85b921d5f1">
+    <name>tdfort_createCompanyBankAccount</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createCompanyBankAccount</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createCompanyBankAccount</procedureName>
+    <parameters uuid="91c20ef3-46cc-4565-80bf-bd656a4f9acf">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="98752a6b-65de-46ed-b0d5-d446ab43aa01">
+    <name>tdfort_createCompanyAddress</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createCompanyAddress</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createCompanyAddress</procedureName>
+    <parameters uuid="da227fda-2a00-465b-9874-4c2039e5fb32">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="eadcd82c-ab96-49c7-8115-f93d62493107">
+    <name>tdfort_createCompanyPhone</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createCompanyPhone</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createCompanyPhone</procedureName>
+    <parameters uuid="76aecc07-f64d-4627-b431-f56a57cdb9e7">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f066306f-4b55-4e06-aeda-8b1f174f3689">
+    <name>tdfort_createCompanyContact</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createCompanyContact</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createCompanyContact</procedureName>
+    <parameters uuid="826a8ae8-be0e-4a64-806d-53639e495b66">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="9c5dc6c0-2998-4d2c-bea2-daf52f2a0eba">
+    <name>tdfort_createEmail</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createEmail</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createEmail</procedureName>
+    <parameters uuid="fc23b6da-dd13-45ee-97ce-2885f6188704">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e777325e-f251-418e-aaa6-2333a20c1f7c">
+    <name>tdfort_createPhone</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createPhone</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createPhone</procedureName>
+    <parameters uuid="d63b767f-aa89-4d4e-b840-b99ff3582f6b">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="93e58ec5-6fbd-4582-8045-e8aa458a501c">
+    <name>tdfort_createRequest</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createRequest</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createRequest</procedureName>
+    <parameters uuid="a2d5e53a-3985-4460-8b12-5e415ccdf15a">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="88506841-792d-4fa0-b2f0-074dcc0e7439">
+    <name>tdfort_createPaymentOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_createPaymentOrder</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_createPaymentOrder</procedureName>
+    <parameters uuid="883f6df9-cfbf-42d5-955a-f67492f4eeac">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="71f42274-0fba-474f-9402-9d5766769458">
+    <name>tdfort_getRequestForPrint</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_getRequestForPrint</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_getRequestForPrint</procedureName>
+    <parameters uuid="807f1743-89da-4c7d-8f0b-61d3f28b6d63">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="99a4349e-d1ac-4d7d-9a87-f495dbb14117">
+    <name>tdfort_getSaleForPrint</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_getSaleForPrint</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_getSaleForPrint</procedureName>
+    <parameters uuid="b7948889-ae26-483a-a432-57d95b005b92">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="67eeb63b-2a3b-4d49-97e1-8ccb7c3606ef">
+    <name>tdfort_getSchetFacturaForPrint</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_getSchetFacturaForPrint</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_getSchetFacturaForPrint</procedureName>
+    <parameters uuid="a4bf419a-4c49-45ce-a0f8-f507cdb47ed8">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c3ff7b65-9f23-4b9c-8b4c-f699f00eeae0">
+    <name>tdfort_getReconciliationActForPrint</name>
+    <synonym>
+      <key>ru</key>
+      <value>tdfort_getReconciliationActForPrint</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>tdfort_getReconciliationActForPrint</procedureName>
+    <parameters uuid="03acd06a-6166-4252-98c4-e43555c3b86c">
+      <name>JSONcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>JSONcode</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b628df0c-ea3b-4f0c-b8b7-b3b207d9f255" extendedConfigurationObject="35a6d3c8-3832-419f-81ef-fc7c113af6a4">
+  <producedTypes>
+    <objectType typeId="bbbe00c8-44e9-4bb0-8a1e-a1302e1a6ad7" valueTypeId="5c84d9cb-87fb-4348-b300-a5e9651de247"/>
+    <refType typeId="050b4112-46b3-4b8a-918e-ed4be4b24d8e" valueTypeId="2ebe03a8-0cf6-4b1a-a80f-ae577602c12d"/>
+    <selectionType typeId="a5b87ede-20bb-40b2-8b28-478b139487be" valueTypeId="839f0cfd-d149-46b8-964f-0fcaa9ea8e37"/>
+    <listType typeId="1e5a3cc4-861a-4737-b1b4-600fe036c73e" valueTypeId="2d348bd8-f41c-4993-9121-710fe5775797"/>
+    <managerType typeId="1ac4f071-cc6e-4325-a690-bafcb72c80ba" valueTypeId="cfb6062f-479e-432c-9017-759b2570cc64"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e293edcc-ce4e-46f0-b087-55fcee6c71e8" extendedConfigurationObject="9a4098b9-639a-42f1-8113-779c62420e46">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ИНН</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2a56e471-2971-46ce-952a-6a421ff81647" extendedConfigurationObject="c85b7b22-c967-4a95-a863-4e454f1b47e2">
+    <name>КПП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

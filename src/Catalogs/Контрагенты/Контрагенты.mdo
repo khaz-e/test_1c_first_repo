@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e737b42-21e8-4563-a6df-1d73b0e5df60" extendedConfigurationObject="4259c461-12b1-4f3e-8283-5927c75afdb6">
+  <producedTypes>
+    <objectType typeId="20c27bda-f1e2-4d9e-84c9-b68b36f5ef03" valueTypeId="f0d1c463-1c76-450c-9c0e-bc38dfd6766f"/>
+    <refType typeId="86c52f7b-da99-4f7f-93f8-5bf391cae537" valueTypeId="5049d865-9d18-42bd-9165-c5be687c57ad"/>
+    <selectionType typeId="f8607e8d-7a83-4d41-a8aa-49c0b5c7ef3b" valueTypeId="05ac3ce1-a8c3-41ea-bca9-0b182a9ce040"/>
+    <listType typeId="77aa6735-8ed5-44fc-b4af-4d4a5b61444c" valueTypeId="e8508136-418a-4787-9cda-1c53a4db54e0"/>
+    <managerType typeId="ff699845-2d38-4d53-b02a-dcdaec650a0f" valueTypeId="5a9ac643-09b3-42aa-affd-7cd0cc429020"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="b18c1f74-cbd5-4c3e-bdb2-78eeee6ceda6" extendedConfigurationObject="56ba8e3c-152e-472e-978c-1c8a27110815">
+    <name>ЮрФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ЮрФизЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>
